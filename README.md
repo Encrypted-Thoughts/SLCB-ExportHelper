@@ -10,6 +10,8 @@ This script was built for use with Streamlabs Chatbot.
 Follow instructions on how to install custom script packs at:
 https://github.com/StreamlabsSupport/Streamlabs-Chatbot/wiki/Prepare-&-Import-Scripts
 
+Click [Here](https://github.com/Encrypted-Thoughts/SLCB-ExportHelper/releases/download/v1.0/ExportHelper.zip) to download the script pack.
+
 ## Use
 
 Once installed the below parameter can be inserted into custom commands created in SLCB.
