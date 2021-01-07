@@ -1,0 +1,42 @@
+{
+	"output_file": "settings.json",
+	"btnreadme": {
+		"type": "button",
+		"label": "open readme",
+		"tooltip": "read this!",
+		"wsevent": "",
+		"function": "OpenReadme",
+		"group": ""
+	},
+	"btnExportQuotes": {
+		"type": "button",
+		"label": "Export Quotes to CSV",
+		"tooltip": "Exports all quotes to csv file located in Export folder of script directory.",
+		"wsevent": "",
+		"function": "ExportQuotesButton",
+		"group": ""
+	},
+	"btnExportExtraQuotes": {
+		"type": "button",
+		"label": "Export Extra Quotes to CSV",
+		"tooltip": "Exports all extra quotes to csv file located in Export folder of script directory.",
+		"wsevent": "",
+		"function": "ExportExtraQuotesButton",
+		"group": ""
+	},
+	"btnExportQueue": {
+		"type": "button",
+		"label": "Export Queue to CSV",
+		"tooltip": "Exports queue data to csv file located in Export folder of script directory.",
+		"wsevent": "",
+		"function": "ExportQueueButton",
+		"group": ""
+	},
+	"EnableDebug": {
+		"type": "checkbox",
+		"value": false,
+		"label": "Enable Debug",
+		"tooltip": "Enable or disable debug logs",
+		"group": "Debug Settings"
+	}
+}
