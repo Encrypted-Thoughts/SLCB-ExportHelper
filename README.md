@@ -34,6 +34,11 @@ Or run exports from script settings:
 
 ![buttons](https://user-images.githubusercontent.com/50642352/103844956-ad545600-5060-11eb-94bb-78a757ba8c25.png)
 
+Once executed exports can be found in the "ExportHelper/Exports" folder in the scripts directory.
+The scripts folder can be easily opened by right clicking in the Scripts tab of the bot and selecting "Open Script Folder".
+
+![script folder](https://user-images.githubusercontent.com/50642352/103846846-aa5b6480-5064-11eb-85a2-85335cbdb575.png)
+
 ## Author
 
 EncryptedThoughts - [Twitch](https://www.twitch.tv/encryptedthoughts)
