@@ -137,7 +137,7 @@ def SaveQuotesToFile(startIndex, endIndex, fileName):
     Parent.Log(ScriptName, file)
     with open(file, 'w') as f:
         for quote in quotes:
-            f.write(str(int(quote.Id)+1) + "," + str(quote.Text) +  "\n")
+            f.write(str(int(quote.Id)+1) + "," + quote.Text.encode('utf-8') +  "\n")
 
 def SaveExtraQuotesToFile(startIndex, endIndex, fileName):
     extraQuoteView = AnkhBotR2.Managers.GlobalManager.Instance.VMLocator.ExtraQuoteView
@@ -152,7 +152,7 @@ def SaveExtraQuotesToFile(startIndex, endIndex, fileName):
     Parent.Log(ScriptName, file)
     with open(file, 'w') as f:
         for quote in quotes:
-            f.write(str(int(quote.Id)+1) + "," + str(quote.Text) +  "\n")
+            f.write(str(int(quote.Id)+1) + "," + quote.Text.encode('utf-8') +  "\n")
 
 def SaveQueueToFile(startIndex, endIndex, fileName):
     queueView = AnkhBotR2.Managers.GlobalManager.Instance.VMLocator.Queue
@@ -167,4 +167,4 @@ def SaveQueueToFile(startIndex, endIndex, fileName):
     Parent.Log(ScriptName, file)
     with open(file, 'w') as f:
         for entry in queue:
-            f.write(str(int(entry.Id)+1) + "," + str(entry.Time) + "," + str(entry.UserId) + "," + str(entry.User.Name) + "," + str(entry.Note) + "\n")
+            f.write(str(int(entry.Id)+1) + "," + str(entry.Time) + "," + str(entry.UserId) + "," + str(entry.User.Name) + "," + entry.Note.encode('utf-8') + "\n")
